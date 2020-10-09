@@ -1,0 +1,12 @@
+{
+    "require": {
+        "particle/validator": "^2.3",
+        "sleiman/airtable-php": "^2.4",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\" : "app"}
+    }
+}
